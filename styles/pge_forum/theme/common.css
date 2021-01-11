@@ -970,7 +970,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	margin: 0 auto;
 }
 
-@media only screen and (max-height: 500px), only screen and (max-device-width: 500px)
+@media only screen and (max-height: 500px), only screen and (max-width: 500px)
 {
 	.phpbb_alert {
 		top: 25px;
@@ -1479,4 +1479,3 @@ a.icon-header-unlock { background-position: 0 -234px; }
 	border-radius: 5px;
 	box-shadow: 1px 1px 2px #000000;
 }
-

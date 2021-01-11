@@ -116,13 +116,13 @@ hr {
 
 .forabg, .forumbg {
 	background-color: #0e4609;
-	background-image: url("./images/wood.png");	
+	background-image: url("./images/wood.png");
 	background-repeat: repeat;
         box-shadow: 1px 1px 2px #000000;
 }
 .autumn .forabg, .autumn .forumbg {
 	background-color: #5e3d1c;
-	background-image: url("./images/wood.png");	
+	background-image: url("./images/wood.png");
 	background-repeat: repeat;
         box-shadow: 1px 1px 2px #000000;
 }
@@ -323,7 +323,7 @@ dl.details dd {
 	border-color: #53d236;
 	color: #FFFFFF;
 }
-.new-year .pagination li a:hover, .new-year .pagination .dropdown-visible a.dropdown-trigger, 
+.new-year .pagination li a:hover, .new-year .pagination .dropdown-visible a.dropdown-trigger,
 .new-year .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
 	background-color: #368AD2;
 	border-color: #368AD2;
@@ -425,13 +425,13 @@ a:hover	{ color: #2bd311; }
 	color: #afffa8;
 }
 
-.autumn .forumbg .header a:hover, 
-.autumn .forabg .header a:hover, 
+.autumn .forumbg .header a:hover,
+.autumn .forabg .header a:hover,
 .autumn th a:hover {
 	color: #ffd4a8;
 }
-.new-year .forumbg .header a:hover, 
-.new-year .forabg .header a:hover, 
+.new-year .forumbg .header a:hover,
+.new-year .forabg .header a:hover,
 .new-year th a:hover {
 	color: #A8D8FF;
 }
@@ -450,9 +450,9 @@ a:hover	{ color: #2bd311; }
 .autumn .postlink:visited { color: #bd845d;}
 .new-year .postlink:visited { color: #5D8FBD;}
 
-.postlink:hover { background-color: #d1f6d0;c olor: #20730d; }
-.autumn .postlink:hover { background-color: #f6efd0;c olor: #733b0d; }
-.new-year .postlink:hover { background-color: #D0E4F6;c olor: #0D4473; }
+.postlink:hover { background-color: #d1f6d0; color: #20730d; }
+.autumn .postlink:hover { background-color: #f6efd0; color: #733b0d; }
+.new-year .postlink:hover { background-color: #D0E4F6; color: #0D4473; }
 
 .signature a, .signature a:hover {
 	background-color: transparent;
@@ -471,11 +471,11 @@ a.arrow-up:hover {
 a.arrow-left:hover, a.arrow-right:hover {
 	color: #2cb235;
 }
-.autumn a.arrow-left:hover, 
+.autumn a.arrow-left:hover,
 .autumn a.arrow-right:hover {
 	color: #d27536;
 }
-.new-year a.arrow-left:hover, 
+.new-year a.arrow-left:hover,
 .new-year a.arrow-right:hover {
 	color: #368AD2;
 }
@@ -1109,9 +1109,7 @@ ul.cplist {
 	color: #3c850e;
 }
 .autumn #navigation a:hover {
-	background-color: #aac6aa;Показать сообщения за: Поле сортировки
-Ответить
-
+	background-color: #aac6aa;
 	background-image: none;
 	color: #BC2A4D;
 }
@@ -1131,10 +1129,8 @@ ul.cplist {
 	color: #D31141;
 }
 
-{
-	#navigation a {
-		background: #B2C2CF;
-	}
+#navigation a {
+	background: #B2C2CF;
 }
 
 /* Preferences pane layout
@@ -1460,5 +1456,3 @@ li.notification-reported strong, li.notification-disapproved strong {
 
 input::-webkit-input-placeholder { color: #999; font-style: italic; }
 input::-moz-placeholder { color: #999; font-style: italic; }
-input:-ms-input-placeholder { color: #999; font-style: italic; }
-

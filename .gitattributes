@@ -15,3 +15,5 @@
 *.gif				binary
 *.jpg				binary
 *.qm				binary
+language/*/email/*.txt          text eol=lf
+language/*/email/short/*.txt    text eol=lf

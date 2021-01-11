@@ -1,0 +1,11 @@
+services:
+    randomPictures.randomPictures.listener:
+        class: randomPictures\randomPictures\event\listener
+        arguments:
+            - @config
+            - @template
+            - @user
+            - %core.root_path%
+        tags:
+            - { name: event.listener }
+

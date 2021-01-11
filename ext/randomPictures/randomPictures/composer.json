@@ -1,0 +1,26 @@
+{
+    "name": "randomPictures/randomPictures",
+    "type": "phpbb-extension",
+    "description": "Adding support of random pictures support for templates",
+    "homepage": "http://engine.wohlnet.ru/",
+    "version": "1.0.0",
+    "keywords": ["randomPictures"],
+    "time": "2016-01-07",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Wohlstand",
+            "homepage": "http://wohlnet.ru/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "randomPictures",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*"
+        }
+    }
+}

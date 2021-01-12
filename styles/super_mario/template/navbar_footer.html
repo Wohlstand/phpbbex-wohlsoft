@@ -1,0 +1,34 @@
+<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<table id="Sizable" cellPadding="0" cellSpacing="0" width="100%">
+	<tr class="green-top"><td class="green-top-left"></td><td class="green-top-center"></td><td class="green-top-right"></td>
+	</tr><tr class="green-mid"><td class="green-mid-left"></td><td class="green-mid-center">
+
+	<ul id="nav-footer" class="linklist bulletin" role="menubar">
+		<li class="breadcrumbs">
+			<!-- IF U_SITE_HOME --><span class="crumb"><a href="{U_SITE_HOME}" data-navbar-reference="home">{L_SITE_HOME}</a></span><!-- ENDIF -->
+			<!-- EVENT overall_footer_breadcrumb_prepend -->
+			<span class="crumb"><a href="{U_INDEX}" data-navbar-reference="index">{L_INDEX}</a></span>
+			<!-- EVENT overall_footer_breadcrumb_append -->
+		</li>
+
+		<!-- EVENT overall_footer_timezone_before -->
+		<li class="rightside">{S_TIMEZONE}</li>
+		<!-- EVENT overall_footer_timezone_after -->
+		<!-- IF not S_IS_BOT -->
+			<li class="small-icon icon-delete-cookies rightside"><a rel="nofollow" href="{U_DELETE_COOKIES}" data-ajax="true" data-refresh="true" role="menuitem">{L_DELETE_COOKIES}</a></li>
+		<!-- ENDIF -->
+		<!-- EVENT overall_footer_teamlink_before -->
+		<!-- EVENT overall_footer_teamlink_after -->
+		<!-- IF U_CONTACT_US -->
+			<li class="small-icon icon-contact rightside" data-last-responsive="true"><a rel="nofollow" href="{U_CONTACT_US}" role="menuitem">{L_CONTACT_US}</a></li>
+		<!-- ENDIF -->
+	</ul>
+
+	<td class="green-mid-right"></td></tr><tr class="green-bot"><td class="green-bot-left"></td><td class="green-bot-center"></td>
+	<td class="green-bot-right"></td></tr>
+	</table>
+
+	</div>
+</div>

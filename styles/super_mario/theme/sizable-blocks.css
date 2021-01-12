@@ -1,0 +1,479 @@
+/* WHITE 14px */
+
+    .white-top
+    {
+        height: 14px;
+    }
+
+        .white14-top-left
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('./images/sizable_white_14/wtl.png');
+        }
+
+        .white14-top-center
+        {
+            height: 14px;
+            background-image: url('./images/sizable_white_14/wtc.png');
+        }
+
+        .white14-top-right
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('./images/sizable_white_14/wtr.png');
+        }
+
+    .white14-mid
+    {
+    }
+
+        .white14-mid-left
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('./images/sizable_white_14/wml.png');
+        }
+
+        .white14-mid-center
+        {
+            background-color: rgb(224, 224, 224);
+        }
+
+        .white14-mid-right
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('./images/sizable_white_14/wmr.png');
+        }
+
+    .white14-bot
+    {
+        height: 14px;
+    }
+
+        .white14-bot-left
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('./images/sizable_white_14/wbl.png');
+        }
+
+        .white14-bot-center
+        {
+            height: 14px;
+            background-image: url('./images/sizable_white_14/wbc.png');
+        }
+
+        .white14-bot-right
+        {
+            table-layout: fixed;
+            height: 14px;
+            width: 14px;
+            background-image: url('./images/sizable_white_14/wbr.png');
+        }
+
+
+
+
+
+
+
+/* WHITE 16px */
+
+
+    .white-top
+    {
+        height: 16px;
+    }
+
+        .white-top-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_white/wtl.png');
+        }
+
+        .white-top-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_white/wtc.png');
+        }
+
+        .white-top-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_white/wtr.png');
+        }
+
+    .white-mid
+    {
+    }
+
+        .white-mid-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_white/wml.png');
+        }
+
+        .white-mid-center
+        {
+            background-color: rgb(224, 224, 224);
+        }
+
+        .white-mid-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_white/wmr.png');
+        }
+
+    .white-bot
+    {
+        height: 16px;
+    }
+
+        .white-bot-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+	    max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_white/wbl.png');
+        }
+
+        .white-bot-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_white/wbc.png');
+        }
+
+        .white-bot-right
+        {
+            table-layout: fixed;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_white/wbr.png');
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BLUE */
+
+    .blue-top
+    {
+        height: 16px;
+    }
+
+        .blue-top-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_blue/btl.png');
+        }
+
+        .blue-top-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_blue/btc.png');
+        }
+
+        .blue-top-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_blue/btr.png');
+        }
+
+    .blue-mid
+    {
+    }
+
+        .blue-mid-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_blue/bml.png');
+        }
+
+        .blue-mid-center
+        {
+            background-color: rgb(88, 200, 248);
+        }
+
+        .blue-mid-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_blue/bmr.png');
+        }
+
+    .blue-bot
+    {
+        height: 16px;
+    }
+
+        .blue-bot-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_blue/bbl.png');
+        }
+
+        .blue-bot-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_blue/bbc.png');
+        }
+
+        .blue-bot-right
+        {
+            table-layout: fixed;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_blue/bbr.png');
+        }
+
+
+
+
+/* ORANGE */
+
+    .orange-top
+    {
+        height: 16px;
+    }
+
+        .orange-top-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_orange/otl.png');
+        }
+
+        .orange-top-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_orange/otc.png');
+        }
+
+        .orange-top-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_orange/otr.png');
+        }
+
+    .orange-mid
+    {
+    }
+
+        .orange-mid-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_orange/oml.png');
+        }
+
+        .orange-mid-center
+        {
+            background-color: rgb(248, 144, 72);
+        }
+
+        .orange-mid-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_orange/omr.png');
+        }
+
+    .orange-bot
+    {
+        height: 16px;
+    }
+
+        .orange-bot-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_orange/obl.png');
+        }
+
+        .orange-bot-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_orange/obc.png');
+        }
+
+        .orange-bot-right
+        {
+            table-layout: fixed;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_orange/obr.png');
+        }
+
+
+/* GREEN */
+
+  .green-top
+    {
+        height: 16px;
+    }
+
+        .green-top-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_green/gtl.png');
+        }
+
+        .green-top-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_green/gtc.png');
+        }
+
+        .green-top-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_green/gtr.png');
+        }
+
+    .green-mid
+    {
+    }
+
+        .green-mid-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_green/gml.png');
+        }
+
+        .green-mid-center
+        {
+            background-color: rgb(128, 184, 80);
+        }
+
+        .green-mid-right
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_green/gmr.png');
+        }
+
+    .green-bot
+    {
+        height: 16px;
+    }
+
+        .green-bot-left
+        {
+            table-layout: fixed;
+            max-height: 16px;
+            max-width: 16px;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_green/gbl.png');
+        }
+
+        .green-bot-center
+        {
+            height: 16px;
+            background-image: url('./images/sizable_green/gbc.png');
+        }
+
+        .green-bot-right
+        {
+            table-layout: fixed;
+            height: 16px;
+            width: 16px;
+            background-image: url('./images/sizable_green/gbr.png');
+        }

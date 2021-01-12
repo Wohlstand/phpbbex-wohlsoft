@@ -1,0 +1,29 @@
+<!-- IF S_SIMPLE_MESSAGE -->
+	<!-- INCLUDE simple_header.html -->
+<!-- ELSE -->
+	<!-- INCLUDE overall_header.html -->
+<!-- ENDIF -->
+
+<div class="panel" id="message">
+	<div class="inner">
+
+        <table style="margin-top: 30px; margin-bottom: 100px;" id="Sizable" cellPadding="0" cellSpacing="0" width="100%">
+        <tr class="orange-top"><td class="orange-top-left"></td><td class="orange-top-center"></td><td class="orange-top-right"></td>
+        </tr><tr class="orange-mid"><td class="orange-mid-left"></td><td class="orange-mid-center">
+
+	<h2 class="message-title">{MESSAGE_TITLE}</h2>
+	<p>{MESSAGE_TEXT}</p>
+	<!-- IF SCRIPT_NAME == "search" and not S_BOARD_DISABLED and not S_NO_SEARCH and L_RETURN_TO_SEARCH_ADV --><p><a href="{U_SEARCH}" class="arrow-{S_CONTENT_FLOW_BEGIN}">{L_GO_TO_SEARCH_ADV}</a></p><!-- ENDIF -->
+
+        <td class="orange-mid-right"></td></tr><tr class="orange-bot"><td class="orange-bot-left"></td><td class="orange-bot-center"></td>
+        <td class="orange-bot-right"></td></tr>
+        </table>
+
+	</div>
+</div>
+
+<!-- IF S_SIMPLE_MESSAGE -->
+	<!-- INCLUDE simple_footer.html -->
+<!-- ELSE -->
+	<!-- INCLUDE overall_footer.html -->
+<!-- ENDIF -->

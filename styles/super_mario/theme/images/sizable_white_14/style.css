@@ -1,0 +1,91 @@
+
+/* WHITE */
+
+    .white-top
+    {
+        height: 14px;
+    }
+
+        .white14-top-left
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('wtl.png');
+        }
+
+        .white14-top-center
+        {
+            height: 14px;
+            background-image: url('wtc.png');
+        }
+
+        .white14-top-right
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('wtr.png');
+        }
+
+    .white14-mid
+    {
+    }
+
+        .white14-mid-left
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('wml.png');
+        }
+
+        .white14-mid-center
+        {
+            background-color: rgb(224, 224, 224);
+        }
+
+        .white14-mid-right
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('wmr.png');
+        }
+
+    .white14-bot
+    {
+        height: 14px;
+    }
+
+        .white14-bot-left
+        {
+            table-layout: fixed;
+            max-height: 14px;
+            max-width: 14px;
+            height: 14px;
+            width: 14px;
+            background-image: url('wbl.png');
+        }
+
+        .white14-bot-center
+        {
+            height: 14px;
+            background-image: url('wbc.png');
+        }
+
+        .white14-bot-right
+        {
+            table-layout: fixed;
+            height: 14px;
+            width: 14px;
+            background-image: url('wbr.png');
+        }

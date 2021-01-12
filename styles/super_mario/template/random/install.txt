@@ -1,0 +1,50 @@
+include/functions.php
+
+	// The following assigns all _common_ variables that may be used at any point in a template.
+
+	//////////////////////////Random header and footer////////////////////////////
+	$path_to_random = dirname(__FILE__)."/../styles/".$user->theme['template_path'].'/template/random/';
+	
+
+	$randoms=1;
+	$randoms_f = $path_to_random.'randoms_head.txt';
+	if(file_exists($randoms_f))
+		$randoms=intval(file_get_contents($randoms_f));
+
+
+	$randHeader = $path_to_random.'header_'.mt_rand(1, $randoms).'.html';
+	if(file_exists($randHeader))
+		{
+		$randHeader = file_get_contents($randHeader);
+		$randHeader = str_replace("{T_THEME_PATH}", "{$web_path}styles/" . rawurlencode($user->theme['theme_path']) . '/theme', $randHeader);
+		}
+	else
+		$randHeader = "";
+
+	$randoms=1;
+	$randoms_f = $path_to_random.'randoms_footer.txt';
+	if(file_exists($randoms_f))
+		$randoms=intval(file_get_contents($randoms_f));
+
+	$randFooter = $path_to_random.'/footer_'.mt_rand(1, $randoms).'.html';
+	//echo dirname(__FILE__)."/../styles/".$randFooter;
+	if(file_exists($randFooter))
+		{
+		$randFooter = file_get_contents($randFooter);
+		$randFooter = str_replace("{T_THEME_PATH}", "{$web_path}styles/" . rawurlencode($user->theme['theme_path']) . '/theme', $randFooter);
+		}
+	else
+		$randFooter = "";
+	//////////////////////////Random header and footer////////////////////////////
+
+
+
+
+
+		'T_UPLOAD'				=> $config['upload_path'],
+		//////////////////////////Random header and footer////////////////////////////
+		'T_RAND_HEADER'			=> $randHeader,
+		'T_RAND_FOOTER'			=> $randFooter,
+		//////////////////////////Random header and footer////////////////////////////
+		'SITE_LOGO_IMG'			=> $user->img('site_logo'),
+

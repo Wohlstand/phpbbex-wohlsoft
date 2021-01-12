@@ -1,0 +1,104 @@
+.footer-scene {
+        display: block;
+        text-align: center;
+        z-index: -2;
+        width: 100%;
+        padding: 0px; 
+        margin: 0px;
+        width: 100%;
+        margin: -280px 0px 0px 0px;
+}
+
+.autumn .footer-scene {
+        margin: -280px 0px 0px 0px;
+}
+
+.new-year .footer-scene {
+        margin: -100px 0px 0px 0px;
+}
+
+/*
+@media screen and (max-height:900px){
+        .footer-scene { margin: -482px 0px 0px 0px;}
+        .autumn .footer-scene { margin: -452px 0px 0px 0px; }
+        .new-year .footer-scene { margin: -280px 0px 0px 0px; }
+}*/
+
+.footer-image
+{
+        background: url("./images/hills.png") bottom center;
+        background-repeat: repeat-x;
+        height: 450px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        z-index:-2;
+        position: relative;
+}
+
+.autumn .footer-image
+{
+     padding-top: 0px;
+     height: 420px;
+     background: url("./images/autumn-forest.png") bottom center;
+}
+
+.new-year .footer-image
+{
+     padding-top: 0px;
+     height: 248px;
+     background: url("./images/snow-trees.png") bottom center;
+}
+
+.footer-scene .over
+{
+        display: block;
+        vertical-align: text-bottom;
+        height: 100%;
+        padding-right: 20px;
+        background-repeat: repeat-x;
+        background-position: bottom center;
+}
+
+.footer-scene .over img {
+        display: inline; position: absolute;
+}
+
+.footer-scene .bushesback { background-image: url('./images/small-bushes.png'); }
+.new-year .footer-scene .bushesback { background-image: url('./images/body-bottom1-snow.png'); }
+
+.footer-scene .trees1 { background-image: url('./images/trees.png'); }
+.autumn .footer-scene .trees1 { background-image: url('./images/trees-autumn.png'); }
+.new-year .footer-scene .trees1 { background-image: url('./images/trees-snow.png'); }
+
+.footer-scene .grassback { background-image: url('./images/grass.png'); }
+
+.footer-scene .ground-grass
+{
+        display: block;
+        height: 32px;
+        width: 100%;
+        background: url('./images/body-bottom4.png');
+}
+
+.footer-scene .ground
+{
+        display: block;
+        background: url('./images/body-bottom2.png');
+        height: 32px;
+        width: 100%;
+}
+
+.new-year .footer-scene .ground
+{
+        background: url('./images/body-bottom2-snow.png');
+}
+
+@media screen and (max-width: 700px) 
+{       
+        /* Hide footer scene on mobiles */
+        .footer-scene {
+                display: none;
+        }
+}
+

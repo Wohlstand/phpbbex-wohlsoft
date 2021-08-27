@@ -11,9 +11,10 @@ span.imageset {
 
 /* Global imageset items */
 .imageset.site_logo {
-	background-image: url("./images/pge_small_logo_smbx_community.png");
-	padding-left: 668px;
-	padding-top: 87px;
+	/*background-image: url("./images/pge_small_logo_smbx_community.png");*/
+	background-image: url("./images/wohlsoft_small_logo_smbx_community.png");
+	padding-left: 690px;
+	padding-top: 88px;
 }
 .imageset.forum_link {
 	background-image: url("./images/forum_link.gif");
@@ -327,4 +328,3 @@ span.imageset {
 	padding-left: 58px;
 	padding-top: 58px;
 }
-

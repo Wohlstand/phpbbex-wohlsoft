@@ -11,9 +11,12 @@ span.imageset {
 
 /* Global imageset items */
 .imageset.site_logo {
-	background-image: url("./images/pge_small_logo_286x87.png");
-	padding-left: 286px;
-	padding-top: 87px;
+	/*background-image: url("./images/pge_small_logo_286x87.png");*/
+	/*background-image: url("./images/wohlsoft_small_logo_252x88.png");*/
+	/*padding-left: 252px;*/
+	background-image: url("./images/wohlsoft_small_logo_328x88.png");
+	padding-left: 328px;
+	padding-top: 88px;
 }
 .imageset.forum_link {
 	background-image: url("./images/forum_link.gif");
@@ -327,4 +330,3 @@ span.imageset {
 	padding-left: 58px;
 	padding-top: 58px;
 }
-

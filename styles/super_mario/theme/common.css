@@ -86,7 +86,7 @@ body.autumn {
 body.new-year {
 	background-color: rgb(192, 184, 224);
 	background-image: url("./images/top-ice.png");
-        /* 
+        /*
 	background-position: center top;
 	background-attachment: fixed;
         background-repeat: repeat-x;*/
@@ -1441,14 +1441,14 @@ ul.linklist:after,
 	background-image: url("./images/header_icons.png");
 }
 
-a.icon-vkontakte, a.icon-facebook, a.icon-twitter, a.icon-google-plus {
+a.icon-vkontakte, a.icon-facebook, a.icon-twitter, a.icon-telegram {
 	background-image: url("./images/social_icons.png") !important;
 }
 
 a.icon-facebook { background-position: 0 -16px; }
 a.icon-vkontakte { background-position: 0 -32px; }
 a.icon-twitter { background-position: 0 -48px; }
-a.icon-google-plus { background-position: 0 -64px; }
+a.icon-telegram { background-position: 0 -64px; }
 
 .header-icons .icon-bump > a { background-position: 0 -112px; }
 a.icon-header-sendemail { background-position: 0 -16px; }
@@ -1483,4 +1483,3 @@ a.icon-header-unlock { background-position: 0 -144px; }
 	border-radius: 5px;
 	box-shadow: 1px 1px 2px #000000;
 }
-
